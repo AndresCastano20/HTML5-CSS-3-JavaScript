@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+   <body>
+   		<nav>
+   			<ul>
+   				<li>
+   					<a href="#">Inicio</a>
+   				</li>
+   				<li><!--- Ruta relativa-->
+   					<a href="index.html">Quien soy</a>
+   				</li>
+   				<li>
+   					<!-- Ruta relativa -->
+   					<a href="index.html">Equipo</a>
+   				</li>
+   				<li>
+   					<!-- Ruta Relativa-->
+   					<a href="index.html">Trasporte</a>
+   				</li>
+   				<li>
+   					<a href="#">Contacto</a>
+   				</li>
+   			</ul>
+   		</nav>
+   		<section>
+   			<h2>Contactanos con nosotros</h2>
+   			<div>
+   				<div id="googleMap"></div>
+   			</div>
+   			<div>
+   				<form name="contacto-batman" method="GET">
+   					<div>
+   					<label for="nombre">Nombre</label>
+   					<input type="text" name="nombre" placeholder="Nombre" required>
+   					<label for="apellidos">Apellidos</label>
+   					<input type="text" name="apellidos" placeholder="Apellidos" required>
+   				</div>
+   				<div>
+   					<label>Email:</label>
+   					<input type="email" name="email" id="email" placeholder="Ejemplo@gmail.com" pattern="[A-Za-z0-9\.\+]@[A-Za-z0-9]}\.[A-Za-z-0-9\.]+" required>
+   				</div>
+   				<div>
+   					<label for="tipo_mision_1">Consulta</label>
+   					<input type="radio" id="tipo_mision_1" name="tipo_mision" value="Consulta" required>
+   					<label for="tipo_mision_2">Mision Simple</label>
+   					<input type="radio" id="tipo_mision_2" name="tipo_mision" value="Mision Simple" required>
+   					<label for="tipo_mision_3">Rescate</label>
+   					<input type="radio" id="tipo_mision_3" name="tipo_mision" value="Rescate" required>
+   					<label for="tipo_mision_4">Salva Gotha</label>
+   					<input type="radio" id="tipo_mision_4" name="tipo_mision" value="Salva Gotha," required>
+   				</div>
+   				<div>
+   					<label for="ejecito">Tamaño del Ejercito</label>
+   					<input type="number" name="ejecito" min="20" id="ejecito" required>
+   				</div>
+   				<div>
+   					<input type="date" name="fecha" id="fecha" required>
+   				</div>
+   				</form>
+   			</div>
+   		</section>
+   		<section>
+   			
+   		</section>
+   </body>
+       <footer>
+   			Hever Andres Castaño Suarez	&copy; 2019 Programers
+   		</footer>
+</html>
